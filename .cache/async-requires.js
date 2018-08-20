@@ -11,9 +11,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/layout-index.json"),
-  "posts-first-post-form-netlify-cms.json": require("gatsby-module-loader?name=path---posts-first-post-form-netlify-cms!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-first-post-form-netlify-cms.json"),
-  "posts-post.json": require("gatsby-module-loader?name=path---posts-post!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-post.json"),
-  "posts-second-post.json": require("gatsby-module-loader?name=path---posts-second-post!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-second-post.json"),
+  "our-first-contentful-post.json": require("gatsby-module-loader?name=path---our-first-contentful-post!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/our-first-contentful-post.json"),
+  "cher-bear.json": require("gatsby-module-loader?name=path---cher-bear!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/cher-bear.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/dev-404-page.json"),
   "404.json": require("gatsby-module-loader?name=path---404!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/404.json"),
   "about.json": require("gatsby-module-loader?name=path---about!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/about.json"),

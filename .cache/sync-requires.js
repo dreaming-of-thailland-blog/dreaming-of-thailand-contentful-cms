@@ -16,9 +16,8 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/layout-index.json"),
-  "posts-first-post-form-netlify-cms.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-first-post-form-netlify-cms.json"),
-  "posts-post.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-post.json"),
-  "posts-second-post.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/posts-second-post.json"),
+  "our-first-contentful-post.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/our-first-contentful-post.json"),
+  "cher-bear.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/cher-bear.json"),
   "dev-404-page.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/dev-404-page.json"),
   "404.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/404.json"),
   "about.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/about.json"),

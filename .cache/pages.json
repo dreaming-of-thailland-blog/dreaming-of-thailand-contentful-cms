@@ -3,22 +3,15 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-first-post-form-netlify-cms.json",
-        "path": "/posts/first-post-form-netlify-cms/"
+        "jsonName": "our-first-contentful-post.json",
+        "path": "/our-first-contentful-post"
     },
     {
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-post.json",
-        "path": "/posts/post/"
-    },
-    {
-        "componentChunkName": "component---src-posts-post-page-js",
-        "layout": "layout---index",
-        "layoutComponentChunkName": "component---src-layouts-index-js",
-        "jsonName": "posts-second-post.json",
-        "path": "/posts/second-post/"
+        "jsonName": "cher-bear.json",
+        "path": "/cher-bear"
     },
     {
         "componentChunkName": "component---cache-dev-404-page-js",
