@@ -1,16 +1,16 @@
-import React from 'react'
-import PropTypes from 'prop-types'
-import Helmet from 'react-helmet'
+import React from 'react';
+import PropTypes from 'prop-types';
+import Helmet from 'react-helmet';
 
-import Header from '../components/header'
-import './index.css'
+import Header from '../components/header';
+import './index.css';
 
 const Layout = ({ children, data, location }) => (
   <div>
     <Helmet
       title='Dreaming of Thailand'
       meta={[
-        { name: 'description', content: 'Sample' },
+        { name: 'Dreaming of Thailand', content: 'Travel Blog' },
         { name: 'keywords', content: 'sample, something' },
       ]}
     />
@@ -30,13 +30,12 @@ const Layout = ({ children, data, location }) => (
 
 Layout.propTypes = {
   children: PropTypes.func,
-}
+};
 
 export default Layout;
 
-export const LayoutQuery = graphql
-  `
-  query SiteMetaData {
+export const LayoutQuery = graphql`
+  query LayoutQuery  {
   site {
     siteMetadata {
       title

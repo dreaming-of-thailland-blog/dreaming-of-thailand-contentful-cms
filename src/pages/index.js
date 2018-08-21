@@ -1,11 +1,11 @@
 import React from 'react'
-import Link from 'gatsby-link'
+import Link from 'gatsby-link';
 import PostListing from '../components/Posts/PostListing';
 
 const IndexPage = ({ data }) => (
   <div>
     <h2>Posts</h2>
-    {data.allContentfulBlogPost.edges.map(({node}) => (
+    {data.allContentfulBlogPost.edges.map(({ node }) => (
       <PostListing key={node.id} post={node} />
     ))}
   </div>
@@ -13,8 +13,7 @@ const IndexPage = ({ data }) => (
 
 export default IndexPage;
 
-export const query = graphql
-  `
+export const query = graphql`
   query SiteMeta {
     site {
       siteMetadata {
@@ -31,7 +30,7 @@ export const query = graphql
               excerpt
             }
           }
-          createdAt(formatString: "MMM DD, YYYY")
+          createdAt(formatString: "MMMM DD, YYYY")
           slug
           id
         }

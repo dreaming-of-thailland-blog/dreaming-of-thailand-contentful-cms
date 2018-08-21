@@ -16,6 +16,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/layout-index.json"),
+  "white-temple.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/white-temple.json"),
+  "second-try.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/second-try.json"),
+  "this-should-trigger-contentful.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/this-should-trigger-contentful.json"),
   "our-first-contentful-post.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/our-first-contentful-post.json"),
   "cher-bear.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/cher-bear.json"),
   "dev-404-page.json": require("/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/dev-404-page.json"),

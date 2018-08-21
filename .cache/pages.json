@@ -3,6 +3,27 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "white-temple.json",
+        "path": "/white-temple"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "second-try.json",
+        "path": "/second-try"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "this-should-trigger-contentful.json",
+        "path": "/this-should-trigger-contentful"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "our-first-contentful-post.json",
         "path": "/our-first-contentful-post"
     },

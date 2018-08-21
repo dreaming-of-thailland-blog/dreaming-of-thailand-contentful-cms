@@ -11,6 +11,9 @@ exports.components = {
 
 exports.json = {
   "layout-index.json": require("gatsby-module-loader?name=path---!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/layout-index.json"),
+  "white-temple.json": require("gatsby-module-loader?name=path---white-temple!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/white-temple.json"),
+  "second-try.json": require("gatsby-module-loader?name=path---second-try!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/second-try.json"),
+  "this-should-trigger-contentful.json": require("gatsby-module-loader?name=path---this-should-trigger-contentful!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/this-should-trigger-contentful.json"),
   "our-first-contentful-post.json": require("gatsby-module-loader?name=path---our-first-contentful-post!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/our-first-contentful-post.json"),
   "cher-bear.json": require("gatsby-module-loader?name=path---cher-bear!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/cher-bear.json"),
   "dev-404-page.json": require("gatsby-module-loader?name=path---dev-404-page!/Users/michaelcastor/projects/dreaming-of-thailand-blog/.cache/json/dev-404-page.json"),

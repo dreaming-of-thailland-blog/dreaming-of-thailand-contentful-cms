@@ -1,6 +1,6 @@
 import React, { Component } from 'react';
 import ReactDOM from 'react-dom';
-import Link from 'gatsby-link'
+import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
 
@@ -63,17 +63,17 @@ export default class Header extends Component {
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
           iterations: 1
-        })
+        });
       }
     }
   };
 
   render() {
-    const { data, location, siteTitle } = this.props;
+    const { data, location } = this.props;
     return (
       <HeaderWrapper
         isHome={location.pathname === '/'}
-        ref={(wrapper => this.wrapper = ReactDOM.findDOMNode(wrapper))}>
+        ref={wrapper => (this.wrapper = ReactDOM.findDOMNode(wrapper))}>
         <HeaderContainer>
           <h1 style={{ margin: 0 }}>
             <Link
@@ -83,7 +83,6 @@ export default class Header extends Component {
                 textDecoration: 'none',
               }}
             >
-              {siteTitle}
             </Link>
           </h1>
           <MainNav>
@@ -97,13 +96,14 @@ export default class Header extends Component {
             </ul>
           </MainNav>
         </HeaderContainer>
-        <Img style={{
+        <Img
+          style={{
           position: 'absolute',
           left: 0,
           top: 0,
           width: '100%',
           height: '100%',
-          opacity:  0.5
+          opacity:  0.9
         }}
              sizes={data.background.sizes} />
       </HeaderWrapper>
