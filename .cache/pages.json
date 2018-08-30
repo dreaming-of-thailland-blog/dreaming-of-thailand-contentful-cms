@@ -3,6 +3,13 @@
         "componentChunkName": "component---src-posts-post-page-js",
         "layout": "layout---index",
         "layoutComponentChunkName": "component---src-layouts-index-js",
+        "jsonName": "video-test.json",
+        "path": "/video-test"
+    },
+    {
+        "componentChunkName": "component---src-posts-post-page-js",
+        "layout": "layout---index",
+        "layoutComponentChunkName": "component---src-layouts-index-js",
         "jsonName": "white-temple.json",
         "path": "/white-temple"
     },

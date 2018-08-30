@@ -25,16 +25,17 @@ const Layout = ({ children, data, location }) => (
     >
       {children()}
     </div>
+    <script src="web-animations.min.js"></script>
   </div>
 )
 
 Layout.propTypes = {
-  children: PropTypes.func,
+  children: PropTypes.func
 };
 
 export default Layout;
 
-export const LayoutQuery = graphql`
+export const query = graphql`
   query LayoutQuery  {
   site {
     siteMetadata {

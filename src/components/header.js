@@ -3,7 +3,9 @@ import ReactDOM from 'react-dom';
 import Link from 'gatsby-link';
 import styled from 'styled-components';
 import Img from 'gatsby-image';
+import Animate from 'web-animations-js';
 
+// import logo from '../images/logo.svg';
 
 const HeaderWrapper = styled.div`
       background: #007acc;
@@ -11,6 +13,11 @@ const HeaderWrapper = styled.div`
       overflow: hidden;
       position: relative;
       height: ${({ isHome }) => (isHome ? '70vh' : '20vh')};
+        h1 {
+          img {
+            height: 80px;
+          }
+        }
 `;
 
 const HeaderContainer = styled.div`
@@ -44,7 +51,7 @@ export default class Header extends Component {
   componentDidUpdate = (prevProps, prevState) => {
     const { location } = this.props;
     if (location.pathname !== prevProps.location.pathname) {
-      if (this.props.location.pathname === '/') {
+      if (this.props.location.pathname === "/") {
         this.wrapper.animate([
           { height: '20vh' },
           { height: '70vh' }
@@ -53,7 +60,7 @@ export default class Header extends Component {
           fill: 'forwards',
           easing: 'cubic-bezier(0.86, 0, 0.07, 1)',
           iterations: 1
-        })
+        });
       } else {
         this.wrapper.animate([
           { height: '70vh' },
@@ -72,17 +79,19 @@ export default class Header extends Component {
     const { data, location } = this.props;
     return (
       <HeaderWrapper
-        isHome={location.pathname === '/'}
+        isHome={location.pathname === "/"}
         ref={wrapper => (this.wrapper = ReactDOM.findDOMNode(wrapper))}>
         <HeaderContainer>
           <h1 style={{ margin: 0 }}>
             <Link
               to="/"
               style={{
-                color: 'white',
+                color: '#0099cc',
                 textDecoration: 'none',
               }}
             >
+              {/*<img src={logo} alt="Level Up Logo" />*/}
+              <p>Dreaming of Thailand</p>
             </Link>
           </h1>
           <MainNav>
