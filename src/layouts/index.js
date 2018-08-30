@@ -25,7 +25,6 @@ const Layout = ({ children, data, location }) => (
     >
       {children()}
     </div>
-    <script src="web-animations.min.js"></script>
   </div>
 )
 
